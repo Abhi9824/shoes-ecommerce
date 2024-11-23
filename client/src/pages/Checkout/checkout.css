@@ -1,0 +1,107 @@
+.container{
+    position: relative;
+     top: 80px;
+    /* padding: 10px 0px;  */
+}
+.row{
+    position: relative;
+    top:45px;
+}
+.priceCard {
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow effect */
+    border-radius: 8px; /* Optional: adds rounded corners */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    padding: 16px; /* Increased padding for content spacing */
+    margin: 0 auto; /* Centers the card horizontally */
+    height: auto; /* Ensure height is set to auto to fit content */
+}
+
+hr{
+    padding: 0px;
+    
+}
+.address-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .address-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 16px;
+    position: relative;
+    transition: box-shadow 0.3s ease; /* Added transition for smooth shadow effect */
+  }
+  
+  .address-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Added hover shadow effect */
+  }
+
+  .address-card input[type="radio"] {
+    position: absolute;
+    top: 40px;
+    left: 16px;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+     /* Ensures text starts at the top left */
+  }
+  
+  
+
+.addAdrres{
+    padding: 4px 8px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: rgb(82, 81, 81);
+}
+
+.placeOrder{
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+
+
+.placeOrder:hover{
+    background-color: var(--primary-color);
+    color: white;
+    
+}
+
+.adddess{
+    border: 1px solid black;
+}
+.fontSize{
+    font-size: 13px;
+}
+
+.edit{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+.edit:hover{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.remove{
+    border: 1px solid black;
+    margin-left: 16px;
+
+    padding: 5px;
+}
+
+
+.remove:hover{
+    border: 1px solid black;
+    margin-left: 16px;
+
+    padding: 5px;
+}

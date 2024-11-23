@@ -1,0 +1,20 @@
+.wishlist-body{
+    display: flex;
+    flex-direction: column;
+        
+        margin-top: 90px;
+        padding-left: 1rem;
+        
+    
+}
+.wishlist-item{
+    border: none;
+}
+.card-body {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
